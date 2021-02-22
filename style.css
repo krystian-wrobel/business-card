@@ -1,14 +1,27 @@
-body{
-    background: #2C2141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+.html {
+  box-sizing: border-box;
 }
-.main{
-    background: #F8F8F8;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
 
+*,
+*:before *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.article__header {
+  margin-left: 212px;
 }
